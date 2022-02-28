@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./app.js" defer></script>
+    <title>Drum Machine</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h2>Drum Machine</h2>
+      </header>
+      <section class="drum-machine">
+        <div class="pad-container">
+          <div class="pad" id="0" data-key="81">Q</div>
+          <div class="pad" id="1" data-key="87">W</div>
+          <div class="pad" id="2" data-key="69">E</div>
+          <div class="pad" id="3" data-key="65">A</div>
+          <div class="pad" id="4" data-key="83">S</div>
+          <div class="pad" id="5" data-key="68">D</div>
+          <div class="pad" id="6" data-key="90">Z</div>
+          <div class="pad" id="7" data-key="88">X</div>
+          <div class="pad" id="8" data-key="67">C</div>
+        </div>
+        <div class="bank-container">
+          <button class="power-btn">
+            <i class="fas fa-power-off"></i>
+          </button>
+          <div class="display">
+            <h3>Welcome</h3>
+          </div>
+          <div class="volume">
+            <input type="range" min="0" max="1" value="0.5" step="0.01" />
+          </div>
+          <div class="music-bank">
+            <label for="bank">Bank</label>
+            <input type="checkbox" class="bank" id="bank" name="bank" />
+          </div>
+        </div>
+      </section>
+      <audio src="" data-key="81"></audio>
+      <audio src="" data-key="87"></audio>
+      <audio src="" data-key="69"></audio>
+      <audio src="" data-key="65"></audio>
+      <audio src="" data-key="83"></audio>
+      <audio src="" data-key="68"></audio>
+      <audio src="" data-key="90"></audio>
+      <audio src="" data-key="88"></audio>
+      <audio src="" data-key="67"></audio>
+    </main>
+    <footer>
+      <h3>
+        Coded by
+        <a href="https://twitter.com/talentless_dev" target="_blank">Kareem</a>
+        <a
+          href="https://github.com/talentlessDeveloper/drum-machine"
+          target="_blank"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+      </h3>
+      <a
+        href="https://www.npr.org/2022/02/25/1082992947/ukraine-support-help"
+        target="_blank"
+        class="ukraine"
+        >Want to support the people in Ukraine?</a
+      >
+    </footer>
+  </body>
+</html>
